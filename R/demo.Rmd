@@ -1,0 +1,19 @@
+---
+title: "Demo"
+author: "Allison Horst"
+date: "9/24/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+I am making something amazing! 
+
+```{r}
+ggplot(data = mtcars, aes(x = mpg, y = disp)) +
+  geom_point()
+```
+
